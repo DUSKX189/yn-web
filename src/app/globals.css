@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --color-wine: #6d2130;
+  --color-wine-dark: #45141d;
+  --color-wine-light: #a9576a;
+  --color-cream: #faf6f0;
+  --color-cream-dark: #f0e8dd;
+  --color-ink: #23180f;
+}
+
+@theme inline {
+  --color-wine: var(--color-wine);
+  --color-wine-dark: var(--color-wine-dark);
+  --color-wine-light: var(--color-wine-light);
+  --color-cream: var(--color-cream);
+  --color-cream-dark: var(--color-cream-dark);
+  --color-ink: var(--color-ink);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body), serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.02em;
+}
+

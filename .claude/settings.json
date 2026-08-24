@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sD - \"https://yn-jwtn6czta-dusk189.vercel.app\" -o /tmp/body2.html)",
+      "Bash(npx --yes vercel project inspect yn-web)",
+      "Bash(npx --yes vercel project update --help)",
+      "Bash(npx --yes vercel project update yn-web --framework nextjs)",
+      "Bash(open -a \"Brave Browser\" \"https://yn-web.vercel.app\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL \"https://images.pexels.com/photos/5484948/pexels-photo-5484948.png?cs=srgb&dl=pexels-felix-adams-2546767-5484948.jpg&fm=jpg&w=2400\" -o public/images/service-manicura.jpg)",
+      "Bash(cp \"img/services1.jpg\" public/images/service-manicura.jpg)",
+      "Bash(cp /private/tmp/claude-501/-Users-onestar-Documents-YN-WEB/337316c6-45a8-4e9c-b774-5600d3061d26/scratchpad/candidate1.jpg public/images/hero-contacto.jpg)",
+      "Bash(curl -sL \"https://images.pexels.com/photos/5484948/pexels-photo-5484948.png?cs=srgb&dl=pexels-felix-adams-2546767-5484948.jpg&fm=jpg&w=2400\" -o public/images/hero-contacto.jpg)",
+      "Bash(cp \"img/QUERER E \\(8\\) 1.png\" public/images/hand-silhouette.png)",
+      "Bash(xargs sed -i '' 's/black/ink/g')"
+    ]
+  }
+}
