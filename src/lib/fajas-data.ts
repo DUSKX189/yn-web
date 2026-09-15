@@ -186,7 +186,6 @@ export const FAJAS_PRODUCTS: FajaProduct[] = [
     ref: "C3",
     name: "Sofía",
     images: [
-      "/images/fajas/faja-c3-sofia.jpg",
       "/images/fajas/faja-c3-sofia-3.jpg",
       "/images/fajas/faja-c3-sofia-4.jpg",
     ],
