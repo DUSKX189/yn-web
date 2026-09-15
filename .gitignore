@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# heavy source assets (not needed for the deployed site; optimized copies live in public/images)
+/img/fajas/
+/FAJA HEADER.png
+/img/hero fajas.jpg
+*.pdf

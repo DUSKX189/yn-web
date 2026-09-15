@@ -9,9 +9,9 @@ export default function Footer() {
           <Image
             src="/logo/yn-logo.svg"
             alt="YN"
-            width={40}
-            height={40}
-            className="h-10 w-10 invert"
+            width={96}
+            height={96}
+            className="h-24 w-24 invert"
           />
           <p className="max-w-xs font-body text-sm text-cream/70">
             Manicura, pedicura, pestañas y depilación realizadas por
@@ -27,6 +27,9 @@ export default function Footer() {
             </Link>
             <Link href="/tienda" className="font-body text-cream/70 hover:text-cream">
               Tienda
+            </Link>
+            <Link href="/fajas" className="font-body text-cream/70 hover:text-cream">
+              Fajas
             </Link>
             <Link href="/contacto" className="font-body text-cream/70 hover:text-cream">
               Contacto

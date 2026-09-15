@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useCart } from "@/components/cart-context";
 
 function formatPrice(value: number) {

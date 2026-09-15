@@ -9,6 +9,7 @@ import CartDrawer from "@/components/cart-drawer";
 const NAV_LINKS = [
   { href: "/servicios", label: "Servicios" },
   { href: "/tienda", label: "Tienda" },
+  { href: "/fajas", label: "Fajas" },
   { href: "/contacto", label: "Contacto" },
 ];
 
